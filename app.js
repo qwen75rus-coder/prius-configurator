@@ -75,7 +75,7 @@ function showError(message) {
 }
 
 const loader = new GLTFLoader();
-loader.load('./assets/toyota prius002.glb', (gltf) => {
+loader.load('./assets/toyota prius 002.glb', (gltf) => {
   carRoot = gltf.scene;
   scene.add(carRoot);
 
